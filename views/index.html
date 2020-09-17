@@ -1,0 +1,45 @@
+{% extends "LAYOUT.html" %}
+{% block body %}
+
+<main>
+    <div class="jumbotron" style="background-image: url('images/wallpaper_home.jpg');">
+        <div class="flexalign">
+            <div class="intro">
+                <h1 style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 
+                -1px 1px 0 #000, 1px 1px 0 #000;">Lorem ipsum.</h1>
+                <h2 style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 
+                -1px 1px 0 #000, 1px 1px 0 #000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <button class="learnmore" type="button" onclick="location.href='#'">Learn more</button>
+                <button class="getstarted" type="button" onclick="location.href='/signup'">Get started</button>
+            </div>
+
+            <form action="/dashboard" method="post" style="float:right" class="loginmodal" autocomplete="off">
+                <div class="modalhead">
+                    Sign in to ACHRYSAETOS
+                </div>
+
+                <div class="container">
+                    <label class="modaltxt" for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label class="modaltxt" for="pword">Password</label>
+                    <input type="password" placeholder="Enter Password" name="pword" required>
+
+                    <div style="text-align: center;">
+                        <button class="next">Next</button>
+                        <button type="button" class="create" onclick="location.href='/signup'">Create an account</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label class="modaltxtlower">
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <span class="modaltxtlower" style="float:right"><a href="/">Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACHRYSAETOS</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style2.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+    <div class="dashboard">
+        <header>
+            <ul>
+                <li><a id="brand" href="/">ACHRYSAETOS</a></li>
+                <li><a class="nav" href="/">Lorem ipsum</a></li>
+                <li><a class="nav" href="/">Lorem ipsum</a></li>
+                <li><a class="nav" href="/">Lorem ipsum</a></li>
+                <li><a class="nav" href="/">Lorem ipsum</a></li>
+            </ul>
+        </header>
+        <div class="screen">
+            <div class="bar">
+                <ul>
+                    <li class="logout" onclick="location.href='/logout'" style="float:right">Log Out</li>
+                </ul>
+
+            </div>
+            {% block body %}
+            {% endblock %}
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+
+        <ul>
+            <li>
+                <h6>Copyright © 2020 ACHRYSAETOS, Inc.</h6>
+            </li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Support Us</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
