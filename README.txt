@@ -1,17 +1,8 @@
-full-stack template w/ CS50 finance
-using html, css, node, and express
-Do not forget to remove your database url from app.js and your api key from goto.js 
-    and instead set them as environment variables!!!
+Using html, css, node, and express.
+Do not forget to remove your database url and api keys.
 
 run "DEBUG=project_card:* npm run devstart"
 and go to http://localhost:3000
-
-TO DO:
-update dependencies in package.json as necessary
-create models when you get your database
-update routes.js as necessary
-update app.js as necessary
-write all your backend code in your controllers directory
 
 IMPORTANT:
 npm install consolidate and swig to avoid using pug as the templating engine
@@ -22,6 +13,3 @@ npm install xmlhttprequest in order to get json from http url
 
 npm install stripe to accept payments
 npm install compression and helmet to get ready for deployment
-
-DEPLOYED!
-Go to https://sleepy-woodland-48112.herokuapp.com/
