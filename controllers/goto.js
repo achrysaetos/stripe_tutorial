@@ -111,3 +111,41 @@ exports.signup_post = async (req, res) => {
         res.status(500).send("Error in Saving");
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exports.payments = function (req, res) {
+    if (!req.session.userID) {
+        res.redirect("login");
+    } else {
+        res.render("payments");
+    }
+};
+exports.history = function (req, res) {
+    if (!req.session.userID) {
+        res.redirect("login");
+    } else {
+        res.render("history");
+    }
+};
