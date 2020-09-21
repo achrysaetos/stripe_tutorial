@@ -1,3 +1,4 @@
+Simple subscription service.
 Using html, css, node, and express.
 Do not forget to remove your database url and api keys.
 
