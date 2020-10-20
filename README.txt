@@ -14,10 +14,3 @@ npm install xmlhttprequest in order to get json from http url
 
 npm install stripe to accept payments
 npm install compression and helmet to get ready for deployment
-
-GIT:
-git init
-git remote add origin https://github.com/achrysaetos/project_card.git
-git add .
-git commit -m "first commit"
-git push -u origin master
