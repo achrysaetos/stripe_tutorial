@@ -2,7 +2,7 @@ Simple subscription service.
 Using html, css, node, and express.
 Do not forget to remove your database url and api keys.
 
-run "DEBUG=project_card:* npm run devstart"
+run "DEBUG=stripe_tutorial:* npm run devstart"
 and go to http://localhost:3000
 
 IMPORTANT: run "npm install" in terminal

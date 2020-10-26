@@ -1,5 +1,5 @@
 {
-  "name": "project_card",
+  "name": "stripe_tutorial",
   "version": "0.0.0",
   "engines": {
     "node": "12.16.3"
@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=cs50-finance:* npm devstart"
+    "serverstart": "DEBUG=stripe_tutorial:* npm devstart"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
